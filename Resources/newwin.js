@@ -8,8 +8,3 @@ var label1 = Titanium.UI.createLabel({
 });
 
 win.add(label1);
-
-var edit = Titanium.UI.createButton({
-	
-	
-});

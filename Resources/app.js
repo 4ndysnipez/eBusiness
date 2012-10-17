@@ -55,7 +55,7 @@ win1_map.add(map_View);
 //
 var win2_settings = Titanium.UI.createWindow({  
     title:'Settings',
-    backgroundColor:'#00FF80'
+    backgroundColor:'#00FF80'    
 });
 var tab2_settings = Titanium.UI.createTab({  
     icon:'KS_nav_ui.png',
@@ -67,7 +67,7 @@ var tab2_settings = Titanium.UI.createTab({
 
 var win3_rates = Titanium.UI.createWindow({  
     title:'Rates',
-    backgroundColor:'#00FF80'
+    backgroundColor:'#00FF80'    
 });
 var tab3_rates = Titanium.UI.createTab({  
     icon:'KS_nav_ui.png',
@@ -77,7 +77,8 @@ var tab3_rates = Titanium.UI.createTab({
 
 var win4_facebook = Titanium.UI.createWindow({  
     title: 'Facebook',
-    backgroundColor: '#3B5998'
+    backgroundColor: '#3B5998',
+    url: 'login.js'
 });
 
 var tab4_facebook = Titanium.UI.createTab({  
@@ -100,12 +101,7 @@ var tab5_test = Titanium.UI.createTab({
 
 
 
-var face_login = Titanium.Facebook.createLoginButton({
-	touchEnabled: true
-	
-});
 
-win4_facebook.add(face_login);
 
 
 
